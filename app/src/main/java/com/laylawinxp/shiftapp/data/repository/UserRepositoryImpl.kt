@@ -30,7 +30,12 @@ class UserRepositoryImpl @Inject constructor(
                 }
             }
         } catch (e: Exception) {
-            dao.getAll().map { it.toUser() }
+            val local = dao.getAll().map { it.toUser() }
+            if (local.isNotEmpty()) {
+                throw Exception("error while loading new data")
+            } else {
+                throw e
+            }
         }
     }
 

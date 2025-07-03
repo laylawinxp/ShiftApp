@@ -27,9 +27,10 @@ class UserListViewModel @Inject constructor(
         viewModelScope.launch {
             try {
                 isRefreshing = true
+                error = null
                 users = getUsersUseCase(force)
             } catch (e: Exception) {
-                error = e.message
+                error = "Failed to load users: ${e.localizedMessage}"
             } finally {
                 isRefreshing = false
             }
