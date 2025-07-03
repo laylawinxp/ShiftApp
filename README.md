@@ -42,7 +42,7 @@
    - Кнопка обновления и переключения темы
    - Pull-to-refresh
 
-2. **Экран деталей**:
+2. **Экран с детализированной информацией**:
    - Полная информация о пользователе
    - Кликабельные контакты (подчеркнуты)
    - Кнопка "Поделиться"
@@ -67,3 +67,15 @@
    - Уведомление о проблеме (Toast)
 
 ## 📸 Скриншоты
+
+  <div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/7fe5d90d-e75d-4cd4-81cd-6f79b1113973" alt="1" width="200" />
+    <img src="https://github.com/user-attachments/assets/5035e52b-b902-4d5a-90bc-1b96be4dc72f" alt="2" width="200" />
+    <img src="https://github.com/user-attachments/assets/6dc5b2bf-bca3-4619-a33e-4b82100b19c7" alt="3" width="200" />
+  </div> <div style="display: flex; justify-content: space-around;">
+        <img src="https://github.com/user-attachments/assets/8863c273-9ad3-4988-8959-3cce34522880" alt="1" width="200" />
+        <img src="https://github.com/user-attachments/assets/7fc26731-2dc5-4c22-a295-6ce14e0074bb0" alt="2" width="200" />
+        <img src="https://github.com/user-attachments/assets/7835f353-8a80-49f1-8590-3fd04a3ae579" alt="3" width="200" />
+    </div>
+
+
